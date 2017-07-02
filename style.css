@@ -1,0 +1,20 @@
+*{padding:0;margin:0}
+.Calendar-wrapper{
+	width: 200px;
+	border: 1px solid black;
+}
+.Calendar-wrapper .Calendar-head{
+	height: 20px;
+	width: 100%;
+	border-bottom: 1px solid black;
+	font-size: 20px;
+	line-height: 20px;
+	text-align:center;
+	background:rgb(112,112,112);
+}
+.Calendar-wrapper .Calendar-head a{
+	text-decoration: none;
+}
+.Calendar-wrapper .Calendar-body{
+	width: 100%;
+}
