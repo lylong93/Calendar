@@ -1,20 +1,42 @@
 *{padding:0;margin:0}
 .Calendar-wrapper{
-	width: 200px;
-	border: 1px solid black;
+	width: 270px;
+	color:rgba(112,112,112,1);
+	background: rgb(0,0,0);
+	box-shadow: 7px 7px 5px #888888;
 }
 .Calendar-wrapper .Calendar-head{
 	height: 20px;
 	width: 100%;
-	border-bottom: 1px solid black;
 	font-size: 20px;
+	font-weight: 700;
 	line-height: 20px;
 	text-align:center;
-	background:rgb(112,112,112);
+	color:#66CD00;
 }
 .Calendar-wrapper .Calendar-head a{
 	text-decoration: none;
+	color:#EE82EE;
+	margin-left: 15px;
 }
 .Calendar-wrapper .Calendar-body{
 	width: 100%;
+}
+.Calendar-wrapper .Calendar-body table{
+	margin: 0 auto;
+}
+.Calendar-wrapper .Calendar-body th,td{
+	text-align: center;
+	padding:3px;
+}
+.Calendar-wrapper .Calendar-body td{
+	cursor: pointer;
+}
+.Calendar-wrapper .Calendar-body .light{
+	border-radius: 50%;
+	background: #1874CD;
+	color : rgb(255,255,255); 
+}
+.Calendar-wrapper .Calendar-body .not{
+	color:rgba(112,112,112,.5);
 }
